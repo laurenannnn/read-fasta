@@ -1,6 +1,7 @@
 import sys
 
 def read_fasta(filename):
+    """doc string"""
     sequence = ''
     f = open(filename)
     for line in f:
